@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Suivi KML</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>Suivi des données KML</h1>
+
+<!-- ===================================== -->
+
+<div class="section">
+
+    <h2>Horloges</h2>
+
+    <p>
+        <span class="label">Heure de Paris :</span>
+        <span id="parisTime" class="value">--</span>
+    </p>
+
+    <p>
+        <span class="label">Heure UTC :</span>
+        <span id="utcTime" class="value">--</span>
+    </p>
+
+    <p>
+        <span class="label">Temps écoulé :</span>
+        <span id="elapsed" class="value">--</span>
+    </p>
+
+</div>
+
+<!-- ===================================== -->
+
+<div class="section">
+
+    <h2>État du chargement</h2>
+
+    <p>
+
+        <span class="label">Statut :</span>
+
+        <span id="status" class="value">
+            En attente...
+        </span>
+
+    </p>
+
+    <p>
+
+        <span class="label">Dernière mise à jour :</span>
+
+        <span id="lastUpdate">
+            --
+        </span>
+
+    </p>
+
+</div>
+
+<!-- ===================================== -->
+
+<div class="section">
+
+<h2>Points contenus dans le fichier KML</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+    <th>Nom</th>
+    <th>Latitude</th>
+    <th>Longitude</th>
+    <th>Altitude</th>
+
+</tr>
+
+</thead>
+
+<tbody id="kmlBody">
+
+</tbody>
+
+</table>
+
+</div>
+
+<!-- ===================================== -->
+
+<div class="footer">
+
+Application HTML + JavaScript
+
+<br>
+
+Lecture automatique d'un fichier KML
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

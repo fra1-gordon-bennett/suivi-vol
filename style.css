@@ -1,0 +1,80 @@
+/* ---------------------------- */
+/* Style général */
+/* ---------------------------- */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+    margin: 20px;
+}
+
+h1 {
+    color: #1f4e79;
+}
+
+.section {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.15);
+}
+
+.label {
+    font-weight: bold;
+    width: 180px;
+    display: inline-block;
+}
+
+.value {
+    color: #004080;
+}
+
+.ok {
+    color: green;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+/* ---------------------------- */
+/* Tableau */
+/* ---------------------------- */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th {
+    background: #1f4e79;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background: #f7f7f7;
+}
+
+tr:hover {
+    background: #dbeeff;
+}
+
+/* ---------------------------- */
+
+.footer {
+
+    margin-top:20px;
+    font-size:14px;
+    color:#555;
+
+}
