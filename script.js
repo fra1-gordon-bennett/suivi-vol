@@ -8,7 +8,7 @@
 // Peut être un fichier présent sur GitHub
 // ou une autre adresse Internet.
 
-const KML_URL = "./Save%20Iritrack%202024.kml";
+const KML_URL = "Save_Iritrack_2024.kml";
 
 // Rafraîchissement
 
