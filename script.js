@@ -8,7 +8,7 @@
 // Peut être un fichier présent sur GitHub
 // ou une autre adresse Internet.
 
-const KML_URL = "parcours.kml";
+const KML_URL = "https://github.com/fra1-gordon-bennett/suivi-vol/blob/main/Save%20Iritrack%202024.kml";
 
 // Rafraîchissement
 
