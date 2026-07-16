@@ -16,7 +16,7 @@ const REFRESH_SECONDS = 30;
 
 // Date de départ du chronomètre
 
-const START_DATE = new Date("2026-07-16T10:00:00Z");
+const START_DATE = new Date("2026-07-16T23:00:00Z");
 
 /*******************************************************
  *
